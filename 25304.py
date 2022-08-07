@@ -1,6 +1,7 @@
 ## 영수증 문제
 # 리스트에서 
 def multiply(value):
+    # 리스트안의 
     return value[0] * value[1]
 
 def method(X, receipt_list):
@@ -14,11 +15,14 @@ def method(X, receipt_list):
     return answer
 
 if __name__ == "__main__":
+    # 
     X = int(input())
 
+    n = int(input())
+    
     receipt_list = []
 
-    for i in range(X):
+    for i in range(n):
         
         price, num = map(int, input().split())
         receipt_list.append((price, num))
